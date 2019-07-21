@@ -1,0 +1,8 @@
+.navWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.navItem {
+    list-style: none;
+}
