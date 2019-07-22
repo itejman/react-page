@@ -1,21 +1,24 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from './NavBar.module.scss';
+import styles from './NavBar.module.scss'; 
 
 const NavBar = () => (
     <nav>
         <ul className={styles.navWrapper}>
             <li className={styles.navItem}>
-                <NavLink to="/" className={styles.navItemLink}>Main Page</NavLink>
+                <NavLink exact to="/" activeClassName={styles.navItemLinkActive} className={styles.navItemLink}>Main Page</NavLink>
             </li>
             <li className={styles.navItem}>
-                <NavLink to="/articles" className={styles.navItemLink}>Articles</NavLink>
+                <NavLink to="/articles" activeClassName={styles.navItemLinkActive} className={styles.navItemLink}>Articles</NavLink>
             </li>
             <li className={styles.navItem}>
-                <NavLink to="/books" className={styles.navItemLink}>Books</NavLink>
+                <NavLink to="/books" activeClassName={styles.navItemLinkActive} className={styles.navItemLink}>Books</NavLink>
             </li>
             <li className={styles.navItem}>
-                <NavLink to="/videos" className={styles.navItemLink}>Videos</NavLink>
+                <NavLink to="/videos" activeClassName={styles.navItemLinkActive} className={styles.navItemLink}>Videos</NavLink>
+            </li>
+            <li className={styles.navItem}>
+                <button className={styles.navItemAdd}>Add new</button>
             </li>
         </ul>
     </nav>
