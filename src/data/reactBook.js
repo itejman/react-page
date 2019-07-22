@@ -2,10 +2,8 @@ export const reactBook = [
     {
         id: 1,
         title: 'The Road to learn React',
-        image: 'https://images-na.ssl-images-amazon.com/images/I/41gYvqhm2yL.jpg',
         prices: '24.59 USD',
         isbn: '1491954620',
-        description: 'The Road to learn React teaches you the fundamentals of React. You will build a real world application along the way in plain React without complicated tooling. Everything from project setup to deployment on a server will be explained. The book comes with additional referenced reading material and exercises with each chapter. After reading the book, you will be able to build your own applications in React. The material is kept up to date by me and the community.',
         link: 'https://www.amazon.com/Road-learn-React-pragmatic-React-js-ebook/dp/B077HJFCQX'
     },
     {

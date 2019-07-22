@@ -1,8 +1,18 @@
-.listItem__container {
-    
-}
-
 .listItem {
+
+    &__container {
+        width: 25%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 1.875rem 0;
+    }
+
+    &__photo {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+    
     &__data {
         
     }

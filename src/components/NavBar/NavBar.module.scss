@@ -9,6 +9,7 @@ nav {
     margin: 0 auto;
     padding: 1.25rem 0;
     align-items: center;
+    text-align: center;
 
     .navItem {
         list-style: none;
@@ -26,8 +27,8 @@ nav {
 
         &Add {
             color: #000;
-            padding: 8px 20px;
-            font-size: 16px;
+            padding: 0.8rem 2rem;
+            font-size: 1.5rem;
             background-color: #61dbfb;
             border: 0;
             cursor: pointer;
