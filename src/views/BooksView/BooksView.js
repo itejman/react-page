@@ -1,7 +1,8 @@
 import React from 'react';
+import ListWrapper from '../../components/ListWrapper/ListWrapper';
 
 const BooksView = () => (
-    <h1>Page - BooksView</h1>
+    <ListWrapper />
 )
 
 export default BooksView;
